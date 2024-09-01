@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Book</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/contacts.png" alt="phone book" />
+            <h1>
+                Phone book
+            </h1>
+        </header>
+        <form id="formPhoneBook">
+            <input type="text" name="name" id="inputName" placeholder="Name" required />
+            <input type="tel" required name="telephone" id="inputTel" placeholder="Telephone" />
+            <button type="submit">Submit</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Telephone</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><b>Quantity</b></td>
+                    <td id="quantityOfContacts">---</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
